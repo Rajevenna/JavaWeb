@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   webcalcontainerecrpipeline:
-    image: ${DNS_NAME}/myecrwebcal:VERSION
+    image: 995529417881.dkr.ecr.us-west-2.amazonaws.com/myecrwebcal:VERSION
     ports:
       - 7001:8080
     
