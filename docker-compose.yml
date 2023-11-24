@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  webcalcontainerecrpipeline:
+    image: ${DNS_NAME}/myecrwebcal:VERSION
+    ports:
+      - 7001:8080
+    
+    
